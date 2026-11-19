@@ -1,0 +1,29 @@
+# Re-runs the data pipeline on the 1st of every month and commits any new data,
+# so the dashboard stays current without manual updates.
+name: Refresh data
+
+on:
+  schedule:
+    - cron: "0 14 1 * *"
+  workflow_dispatch:   # adds a "Run workflow" button on the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pull latest indicators from the World Bank API
+        run: python pipeline/fetch_data.py
+      - name: Commit if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "Refresh data $(date -u +%Y-%m-%d)"
+          git push

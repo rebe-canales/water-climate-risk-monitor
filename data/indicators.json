@@ -1,0 +1,3210 @@
+{
+ "fetched_at": "2026-10-22",
+ "countries": [
+  "USA",
+  "MEX",
+  "CAN"
+ ],
+ "indicators": {
+  "water_stress": {
+   "code": "ER.H2O.FWST.ZS",
+   "label": "Water stress: freshwater withdrawn as % of available resources",
+   "unit": "%",
+   "source_short": "FAO AQUASTAT",
+   "source": "Food and Agriculture Organization, AQUASTAT data.",
+   "source_last_updated": "2026-10-08",
+   "latest_year": 2022
+  },
+  "water_per_capita": {
+   "code": "ER.H2O.INTR.PC",
+   "label": "Renewable internal freshwater per person",
+   "unit": "m\u00b3 per person",
+   "source_short": "FAO AQUASTAT",
+   "source": "Food and Agriculture Organization, AQUASTAT data.",
+   "source_last_updated": "2026-10-08",
+   "latest_year": 2022
+  },
+  "withdrawal_agriculture": {
+   "code": "ER.H2O.FWAG.ZS",
+   "label": "Freshwater withdrawals: agriculture",
+   "unit": "% of total withdrawals",
+   "source_short": "FAO AQUASTAT",
+   "source": "Food and Agriculture Organization, AQUASTAT data.",
+   "source_last_updated": "2026-10-08",
+   "latest_year": 2022
+  },
+  "withdrawal_industry": {
+   "code": "ER.H2O.FWIN.ZS",
+   "label": "Freshwater withdrawals: industry",
+   "unit": "% of total withdrawals",
+   "source_short": "FAO AQUASTAT",
+   "source": "Food and Agriculture Organization, AQUASTAT data.",
+   "source_last_updated": "2026-10-08",
+   "latest_year": 2022
+  },
+  "methane": {
+   "code": "EN.GHG.CH4.MT.CE.AR5",
+   "label": "Methane emissions, excluding land use",
+   "unit": "Mt CO2e",
+   "source_short": "EDGAR (EU Joint Research Centre)",
+   "source": "EDGAR Community GHG Database (European Commission, Joint Research Centre, 2024) and IEA",
+   "source_last_updated": "2026-10-08",
+   "latest_year": 2024
+  },
+  "disaster_displacement": {
+   "code": "VC.IDP.NWDS",
+   "label": "New internal displacements caused by disasters",
+   "unit": "displacements",
+   "source_short": "IDMC",
+   "source": "Internal Displacement Monitoring Centre (IDMC)",
+   "source_last_updated": "2026-10-08",
+   "latest_year": 2023
+  }
+ },
+ "rows": [
+  {
+   "indicator": "water_stress",
+   "country": "CAN",
+   "year": 2000,
+   "value": 4.313699092,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "CAN",
+   "year": 2001,
+   "value": 4.305331898,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "CAN",
+   "year": 2002,
+   "value": 4.296964704,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "CAN",
+   "year": 2003,
+   "value": 4.28859751,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "CAN",
+   "year": 2004,
+   "value": 4.280230316,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "CAN",
+   "year": 2005,
+   "value": 4.271863121,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "CAN",
+   "year": 2006,
+   "value": 4.263495927,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "CAN",
+   "year": 2007,
+   "value": 4.255128733,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "CAN",
+   "year": 2008,
+   "value": 4.125365603,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "CAN",
+   "year": 2009,
+   "value": 3.995602472,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "CAN",
+   "year": 2010,
+   "value": 3.830962925,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "CAN",
+   "year": 2011,
+   "value": 3.666323378,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "CAN",
+   "year": 2012,
+   "value": 3.752832132,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "CAN",
+   "year": 2013,
+   "value": 3.839340886,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "CAN",
+   "year": 2014,
+   "value": 3.759526262,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "CAN",
+   "year": 2015,
+   "value": 3.679711638,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "CAN",
+   "year": 2016,
+   "value": 3.706642637,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "CAN",
+   "year": 2017,
+   "value": 3.733573635,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "CAN",
+   "year": 2018,
+   "value": 3.733573635,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "CAN",
+   "year": 2019,
+   "value": 3.733573635,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "CAN",
+   "year": 2020,
+   "value": 3.733573635,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "CAN",
+   "year": 2021,
+   "value": 3.720700309,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "CAN",
+   "year": 2022,
+   "value": 3.720700309,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "MEX",
+   "year": 2000,
+   "value": 25.57161506,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "MEX",
+   "year": 2001,
+   "value": 25.80044863,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "MEX",
+   "year": 2002,
+   "value": 27.12050055,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "MEX",
+   "year": 2003,
+   "value": 28.02076613,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "MEX",
+   "year": 2004,
+   "value": 28.20832145,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "MEX",
+   "year": 2005,
+   "value": 28.58343211,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "MEX",
+   "year": 2006,
+   "value": 28.88352064,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "MEX",
+   "year": 2007,
+   "value": 29.50245322,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "MEX",
+   "year": 2008,
+   "value": 29.92666587,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "MEX",
+   "year": 2009,
+   "value": 29.92632827,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "MEX",
+   "year": 2010,
+   "value": 29.87006167,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "MEX",
+   "year": 2011,
+   "value": 29.81379507,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "MEX",
+   "year": 2012,
+   "value": 31.03290471,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "MEX",
+   "year": 2013,
+   "value": 30.6277852,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "MEX",
+   "year": 2014,
+   "value": 31.85814815,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "MEX",
+   "year": 2015,
+   "value": 32.13197893,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "MEX",
+   "year": 2016,
+   "value": 32.47595541,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "MEX",
+   "year": 2017,
+   "value": 32.94972017,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "MEX",
+   "year": 2018,
+   "value": 44.46268418,
+   "carried_forward": false,
+   "step_change": true
+  },
+  {
+   "indicator": "water_stress",
+   "country": "MEX",
+   "year": 2019,
+   "value": 44.71842969,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "MEX",
+   "year": 2020,
+   "value": 44.81702434,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "MEX",
+   "year": 2021,
+   "value": 45.01521461,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "MEX",
+   "year": 2022,
+   "value": 44.94514734,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "USA",
+   "year": 2000,
+   "value": 30.01267427,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "USA",
+   "year": 2001,
+   "value": 30.07604563,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "USA",
+   "year": 2002,
+   "value": 30.13941698,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "USA",
+   "year": 2003,
+   "value": 30.20278834,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "USA",
+   "year": 2004,
+   "value": 30.2661597,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "USA",
+   "year": 2005,
+   "value": 30.32953105,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "USA",
+   "year": 2006,
+   "value": 29.57160963,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "USA",
+   "year": 2007,
+   "value": 28.81368821,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "USA",
+   "year": 2008,
+   "value": 28.05576679,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "USA",
+   "year": 2009,
+   "value": 27.29784537,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "USA",
+   "year": 2010,
+   "value": 26.53992395,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "USA",
+   "year": 2011,
+   "value": 26.86299113,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "USA",
+   "year": 2012,
+   "value": 27.1860583,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "USA",
+   "year": 2013,
+   "value": 27.50912548,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "USA",
+   "year": 2014,
+   "value": 27.83219265,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "USA",
+   "year": 2015,
+   "value": 28.15525982,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "USA",
+   "year": 2016,
+   "value": 28.15525982,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "USA",
+   "year": 2017,
+   "value": 28.15525982,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "USA",
+   "year": 2018,
+   "value": 28.15525982,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "USA",
+   "year": 2019,
+   "value": 28.15525982,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "USA",
+   "year": 2020,
+   "value": 28.15525982,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "USA",
+   "year": 2021,
+   "value": 28.15525982,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "water_stress",
+   "country": "USA",
+   "year": 2022,
+   "value": 28.15525982,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "CAN",
+   "year": 2000,
+   "value": 92877.0474093333,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "CAN",
+   "year": 2001,
+   "value": 91873.6765959546,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "CAN",
+   "year": 2002,
+   "value": 90882.4233680203,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "CAN",
+   "year": 2003,
+   "value": 90068.8476790727,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "CAN",
+   "year": 2004,
+   "value": 89233.1388583174,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "CAN",
+   "year": 2005,
+   "value": 88392.0134311199,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "CAN",
+   "year": 2006,
+   "value": 87500.6328444893,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "CAN",
+   "year": 2007,
+   "value": 86655.4130170295,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "CAN",
+   "year": 2008,
+   "value": 85721.2516938971,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "CAN",
+   "year": 2009,
+   "value": 84745.5888359908,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "CAN",
+   "year": 2010,
+   "value": 83808.9811586236,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "CAN",
+   "year": 2011,
+   "value": 82995.4762223639,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "CAN",
+   "year": 2012,
+   "value": 82100.8720120864,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "CAN",
+   "year": 2013,
+   "value": 81240.5760931732,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "CAN",
+   "year": 2014,
+   "value": 80431.0744355446,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "CAN",
+   "year": 2015,
+   "value": 79821.875663957,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "CAN",
+   "year": 2016,
+   "value": 78923.7503247989,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "CAN",
+   "year": 2017,
+   "value": 77985.8845548956,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "CAN",
+   "year": 2018,
+   "value": 76876.1420153202,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "CAN",
+   "year": 2019,
+   "value": 75760.6065846069,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "CAN",
+   "year": 2020,
+   "value": 74943.5201965424,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "CAN",
+   "year": 2021,
+   "value": 74529.5537661954,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "CAN",
+   "year": 2022,
+   "value": 73170.4837354595,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "MEX",
+   "year": 2000,
+   "value": 4146.99833568485,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "MEX",
+   "year": 2001,
+   "value": 4085.95086355373,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "MEX",
+   "year": 2002,
+   "value": 4027.62719857238,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "MEX",
+   "year": 2003,
+   "value": 3971.7022526495,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "MEX",
+   "year": 2004,
+   "value": 3917.84476849565,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "MEX",
+   "year": 2005,
+   "value": 3865.36420463317,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "MEX",
+   "year": 2006,
+   "value": 3813.38946493447,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "MEX",
+   "year": 2007,
+   "value": 3760.07728291851,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "MEX",
+   "year": 2008,
+   "value": 3705.57316754786,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "MEX",
+   "year": 2009,
+   "value": 3651.79481116743,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "MEX",
+   "year": 2010,
+   "value": 3599.59496195761,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "MEX",
+   "year": 2011,
+   "value": 3549.00697916995,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "MEX",
+   "year": 2012,
+   "value": 3501.16653047785,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "MEX",
+   "year": 2013,
+   "value": 3456.03896884202,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "MEX",
+   "year": 2014,
+   "value": 3414.47195637831,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "MEX",
+   "year": 2015,
+   "value": 3378.14660934929,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "MEX",
+   "year": 2016,
+   "value": 3345.56629971312,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "MEX",
+   "year": 2017,
+   "value": 3314.42310435886,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "MEX",
+   "year": 2018,
+   "value": 3283.19672519028,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "MEX",
+   "year": 2019,
+   "value": 3252.14934868513,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "MEX",
+   "year": 2020,
+   "value": 3225.57611510256,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "MEX",
+   "year": 2021,
+   "value": 3204.12012558145,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "MEX",
+   "year": 2022,
+   "value": 3180.07999137444,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "USA",
+   "year": 2000,
+   "value": 9987.15594331947,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "USA",
+   "year": 2001,
+   "value": 9888.79648311164,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "USA",
+   "year": 2002,
+   "value": 9797.47278257368,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "USA",
+   "year": 2003,
+   "value": 9713.62613513916,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "USA",
+   "year": 2004,
+   "value": 9624.14279812656,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "USA",
+   "year": 2005,
+   "value": 9535.84336560397,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "USA",
+   "year": 2006,
+   "value": 9444.33551545521,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "USA",
+   "year": 2007,
+   "value": 9354.94043948773,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "USA",
+   "year": 2008,
+   "value": 9266.87246401989,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "USA",
+   "year": 2009,
+   "value": 9185.98935561585,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "USA",
+   "year": 2010,
+   "value": 9108.59185963336,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "USA",
+   "year": 2011,
+   "value": 9036.70109922362,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "USA",
+   "year": 2012,
+   "value": 8964.84086441948,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "USA",
+   "year": 2013,
+   "value": 8897.27237728885,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "USA",
+   "year": 2014,
+   "value": 8826.72911488768,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "USA",
+   "year": 2015,
+   "value": 8756.58045912641,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "USA",
+   "year": 2016,
+   "value": 8688.05605639825,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "USA",
+   "year": 2017,
+   "value": 8628.06405693979,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "USA",
+   "year": 2018,
+   "value": 8577.61430715871,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "USA",
+   "year": 2019,
+   "value": 8533.54388475026,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "USA",
+   "year": 2020,
+   "value": 8498.75177523785,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "USA",
+   "year": 2021,
+   "value": 8485.39172365244,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "water_per_capita",
+   "country": "USA",
+   "year": 2022,
+   "value": 8437.21911365822,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "CAN",
+   "year": 2000,
+   "value": 8.524423031,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "CAN",
+   "year": 2001,
+   "value": 8.102637627,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "CAN",
+   "year": 2002,
+   "value": 7.683151199,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "CAN",
+   "year": 2003,
+   "value": 7.265945004,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "CAN",
+   "year": 2004,
+   "value": 6.851000498,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "CAN",
+   "year": 2005,
+   "value": 6.438299342,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "CAN",
+   "year": 2006,
+   "value": 6.02782339,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "CAN",
+   "year": 2007,
+   "value": 5.619554695,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "CAN",
+   "year": 2008,
+   "value": 5.619554695,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "CAN",
+   "year": 2009,
+   "value": 5.619554695,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "CAN",
+   "year": 2010,
+   "value": 11.70545189,
+   "carried_forward": false,
+   "step_change": true
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "CAN",
+   "year": 2011,
+   "value": 10.99589058,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "CAN",
+   "year": 2012,
+   "value": 10.20020391,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "CAN",
+   "year": 2013,
+   "value": 9.358869787,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "CAN",
+   "year": 2014,
+   "value": 8.458601291,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "CAN",
+   "year": 2015,
+   "value": 7.505688282,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "CAN",
+   "year": 2016,
+   "value": 9.099183622,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "CAN",
+   "year": 2017,
+   "value": 10.64463631,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "CAN",
+   "year": 2018,
+   "value": 10.67368596,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "CAN",
+   "year": 2019,
+   "value": 10.7028946,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "CAN",
+   "year": 2020,
+   "value": 10.7285339,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "CAN",
+   "year": 2021,
+   "value": 10.6814659,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "CAN",
+   "year": 2022,
+   "value": 10.69419426,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "MEX",
+   "year": 2000,
+   "value": 84.70391061,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "MEX",
+   "year": 2001,
+   "value": 76.45348837,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "MEX",
+   "year": 2002,
+   "value": 77.27272727,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "MEX",
+   "year": 2003,
+   "value": 76.17135208,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "MEX",
+   "year": 2004,
+   "value": 76.1589404,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "MEX",
+   "year": 2005,
+   "value": 76.73202614,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "MEX",
+   "year": 2006,
+   "value": 76.84346701,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "MEX",
+   "year": 2007,
+   "value": 76.71944269,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "MEX",
+   "year": 2008,
+   "value": 76.69172932,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "MEX",
+   "year": 2009,
+   "value": 76.67493797,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "MEX",
+   "year": 2010,
+   "value": 76.68118007,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "MEX",
+   "year": 2011,
+   "value": 76.68742217,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "MEX",
+   "year": 2012,
+   "value": 76.57162196,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "MEX",
+   "year": 2013,
+   "value": 75.71619288,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "MEX",
+   "year": 2014,
+   "value": 76.72019969,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "MEX",
+   "year": 2015,
+   "value": 76.29720423,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "MEX",
+   "year": 2016,
+   "value": 76.29046976,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "MEX",
+   "year": 2017,
+   "value": 76.04735883,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "MEX",
+   "year": 2018,
+   "value": 75.7204611,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "MEX",
+   "year": 2019,
+   "value": 75.70816219,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "MEX",
+   "year": 2020,
+   "value": 75.7437352,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "MEX",
+   "year": 2021,
+   "value": 75.68042337,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "MEX",
+   "year": 2022,
+   "value": 76.30113801,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "USA",
+   "year": 2000,
+   "value": 35.13320222,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "USA",
+   "year": 2001,
+   "value": 34.92949093,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "USA",
+   "year": 2002,
+   "value": 34.72623609,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "USA",
+   "year": 2003,
+   "value": 34.52343616,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "USA",
+   "year": 2004,
+   "value": 34.32108962,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "USA",
+   "year": 2005,
+   "value": 34.11919494,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "USA",
+   "year": 2006,
+   "value": 34.46359698,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "USA",
+   "year": 2007,
+   "value": 34.82791048,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "USA",
+   "year": 2008,
+   "value": 35.21391358,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "USA",
+   "year": 2009,
+   "value": 35.62360268,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "USA",
+   "year": 2010,
+   "value": 36.05922692,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "USA",
+   "year": 2011,
+   "value": 36.72930677,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "USA",
+   "year": 2012,
+   "value": 37.42298591,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "USA",
+   "year": 2013,
+   "value": 38.14153339,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "USA",
+   "year": 2014,
+   "value": 38.8863109,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "USA",
+   "year": 2015,
+   "value": 39.65878143,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "USA",
+   "year": 2016,
+   "value": 39.65878143,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "USA",
+   "year": 2017,
+   "value": 39.65878143,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "USA",
+   "year": 2018,
+   "value": 39.65878143,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "USA",
+   "year": 2019,
+   "value": 39.65878143,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "USA",
+   "year": 2020,
+   "value": 39.65878143,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "USA",
+   "year": 2021,
+   "value": 39.65878143,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_agriculture",
+   "country": "USA",
+   "year": 2022,
+   "value": 39.65878143,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "CAN",
+   "year": 2000,
+   "value": 77.86922312,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "CAN",
+   "year": 2001,
+   "value": 78.20110059,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "CAN",
+   "year": 2002,
+   "value": 78.53116914,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "CAN",
+   "year": 2003,
+   "value": 78.85944352,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "CAN",
+   "year": 2004,
+   "value": 79.1859383,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "CAN",
+   "year": 2005,
+   "value": 79.51066793,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "CAN",
+   "year": 2006,
+   "value": 79.83364668,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "CAN",
+   "year": 2007,
+   "value": 80.15488867,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "CAN",
+   "year": 2008,
+   "value": 80.15488867,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "CAN",
+   "year": 2009,
+   "value": 80.15488867,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "CAN",
+   "year": 2010,
+   "value": 75.17734826,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "CAN",
+   "year": 2011,
+   "value": 75.98286066,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "CAN",
+   "year": 2012,
+   "value": 76.53430684,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "CAN",
+   "year": 2013,
+   "value": 77.11738871,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "CAN",
+   "year": 2014,
+   "value": 77.6500597,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "CAN",
+   "year": 2015,
+   "value": 78.21387941,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "CAN",
+   "year": 2016,
+   "value": 77.02519149,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "CAN",
+   "year": 2017,
+   "value": 75.8723416,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "CAN",
+   "year": 2018,
+   "value": 75.83692135,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "CAN",
+   "year": 2019,
+   "value": 75.80130724,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "CAN",
+   "year": 2020,
+   "value": 75.73916791,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "CAN",
+   "year": 2021,
+   "value": 75.72243136,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "CAN",
+   "year": 2022,
+   "value": 75.81266454,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "MEX",
+   "year": 2001,
+   "value": 9.593023256,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "MEX",
+   "year": 2002,
+   "value": 9.504132231,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "MEX",
+   "year": 2003,
+   "value": 9.772423025,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "MEX",
+   "year": 2004,
+   "value": 9.668874172,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "MEX",
+   "year": 2005,
+   "value": 9.281045752,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "MEX",
+   "year": 2006,
+   "value": 9.314359638,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "MEX",
+   "year": 2007,
+   "value": 9.145028499,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "MEX",
+   "year": 2008,
+   "value": 9.273182957,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "MEX",
+   "year": 2009,
+   "value": 9.181141439,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "MEX",
+   "year": 2010,
+   "value": 9.123571965,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "MEX",
+   "year": 2011,
+   "value": 9.066002491,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "MEX",
+   "year": 2012,
+   "value": 8.948061838,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "MEX",
+   "year": 2013,
+   "value": 9.635381582,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "MEX",
+   "year": 2014,
+   "value": 9.091979466,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "MEX",
+   "year": 2015,
+   "value": 9.134418958,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "MEX",
+   "year": 2016,
+   "value": 9.1837324,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "MEX",
+   "year": 2017,
+   "value": 7.757285975,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "MEX",
+   "year": 2018,
+   "value": 9.548360951,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "MEX",
+   "year": 2019,
+   "value": 9.57236069,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "MEX",
+   "year": 2020,
+   "value": 9.553535534,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "MEX",
+   "year": 2021,
+   "value": 9.545939696,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "MEX",
+   "year": 2022,
+   "value": 8.85575574,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "USA",
+   "year": 2000,
+   "value": 53.42392276,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "USA",
+   "year": 2001,
+   "value": 53.58903288,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "USA",
+   "year": 2002,
+   "value": 53.75377304,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "USA",
+   "year": 2003,
+   "value": 53.91814449,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "USA",
+   "year": 2004,
+   "value": 54.08214848,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "USA",
+   "year": 2005,
+   "value": 54.24578622,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "USA",
+   "year": 2006,
+   "value": 53.69696748,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "USA",
+   "year": 2007,
+   "value": 53.11641903,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "USA",
+   "year": 2008,
+   "value": 52.5013073,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "USA",
+   "year": 2009,
+   "value": 51.84845097,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "USA",
+   "year": 2010,
+   "value": 51.15426594,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "USA",
+   "year": 2011,
+   "value": 50.41794985,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "USA",
+   "year": 2012,
+   "value": 49.65570171,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "USA",
+   "year": 2013,
+   "value": 48.86612704,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "USA",
+   "year": 2014,
+   "value": 48.04772953,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "USA",
+   "year": 2015,
+   "value": 47.19890162,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "USA",
+   "year": 2016,
+   "value": 47.19890162,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "USA",
+   "year": 2017,
+   "value": 47.19890162,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "USA",
+   "year": 2018,
+   "value": 47.19890162,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "USA",
+   "year": 2019,
+   "value": 47.19890162,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "USA",
+   "year": 2020,
+   "value": 47.19890162,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "USA",
+   "year": 2021,
+   "value": 47.19890162,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "withdrawal_industry",
+   "country": "USA",
+   "year": 2022,
+   "value": 47.19890162,
+   "carried_forward": true,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2000,
+   "value": 129.765,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2001,
+   "value": 131.17,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2002,
+   "value": 132.6691,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2003,
+   "value": 132.5201,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2004,
+   "value": 135.4669,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2005,
+   "value": 135.3952,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2006,
+   "value": 137.7047,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2007,
+   "value": 136.0643,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2008,
+   "value": 134.2983,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2009,
+   "value": 128.3422,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2010,
+   "value": 129.3738,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2011,
+   "value": 131.0142,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2012,
+   "value": 134.4356,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2013,
+   "value": 135.9639,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2014,
+   "value": 140.5134,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2015,
+   "value": 139.3895,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2016,
+   "value": 135.8816,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2017,
+   "value": 137.612,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2018,
+   "value": 138.6907,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2019,
+   "value": 137.5658,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2020,
+   "value": 122.2572,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2021,
+   "value": 125.5287,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2022,
+   "value": 128.6325,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2023,
+   "value": 130.1933,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "CAN",
+   "year": 2024,
+   "value": 133.0764,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2000,
+   "value": 133.6955,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2001,
+   "value": 132.6221,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2002,
+   "value": 132.9059,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2003,
+   "value": 136.0676,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2004,
+   "value": 135.7865,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2005,
+   "value": 139.5531,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2006,
+   "value": 143.2239,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2007,
+   "value": 144.2038,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2008,
+   "value": 148.5542,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2009,
+   "value": 145.3202,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2010,
+   "value": 144.146,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2011,
+   "value": 145.3245,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2012,
+   "value": 141.7976,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2013,
+   "value": 142.8726,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2014,
+   "value": 142.8222,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2015,
+   "value": 143.2195,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2016,
+   "value": 143.6991,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2017,
+   "value": 142.5198,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2018,
+   "value": 143.3238,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2019,
+   "value": 144.0582,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2020,
+   "value": 145.7119,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2021,
+   "value": 147.052,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2022,
+   "value": 149.5285,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2023,
+   "value": 151.0079,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "MEX",
+   "year": 2024,
+   "value": 150.6783,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2000,
+   "value": 826.3315,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2001,
+   "value": 828.2418,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2002,
+   "value": 816.7794,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2003,
+   "value": 822.1458,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2004,
+   "value": 827.5746,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2005,
+   "value": 823.3673,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2006,
+   "value": 829.8423,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2007,
+   "value": 831.8717,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2008,
+   "value": 841.1816,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2009,
+   "value": 814.7348,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2010,
+   "value": 818.881,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2011,
+   "value": 822.4013,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2012,
+   "value": 816.0029,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2013,
+   "value": 812.7186,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2014,
+   "value": 830.149,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2015,
+   "value": 819.5369,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2016,
+   "value": 795.1055,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2017,
+   "value": 812.8036,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2018,
+   "value": 841.912,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2019,
+   "value": 866.552,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2020,
+   "value": 823.9331,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2021,
+   "value": 825.0979,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2022,
+   "value": 829.0586,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2023,
+   "value": 841.5106,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "methane",
+   "country": "USA",
+   "year": 2024,
+   "value": 843.3596,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "CAN",
+   "year": 2008,
+   "value": 2000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "CAN",
+   "year": 2013,
+   "value": 120000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "CAN",
+   "year": 2014,
+   "value": 5800.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "CAN",
+   "year": 2015,
+   "value": 13000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "CAN",
+   "year": 2016,
+   "value": 93000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "CAN",
+   "year": 2017,
+   "value": 85000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "CAN",
+   "year": 2018,
+   "value": 19000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "CAN",
+   "year": 2019,
+   "value": 41000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "CAN",
+   "year": 2020,
+   "value": 26000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "CAN",
+   "year": 2021,
+   "value": 60000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "CAN",
+   "year": 2022,
+   "value": 15000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "CAN",
+   "year": 2023,
+   "value": 192000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "MEX",
+   "year": 2008,
+   "value": 13000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "MEX",
+   "year": 2009,
+   "value": 375000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "MEX",
+   "year": 2010,
+   "value": 900000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "MEX",
+   "year": 2011,
+   "value": 547000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "MEX",
+   "year": 2012,
+   "value": 6500.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "MEX",
+   "year": 2013,
+   "value": 158000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "MEX",
+   "year": 2014,
+   "value": 18000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "MEX",
+   "year": 2015,
+   "value": 91000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "MEX",
+   "year": 2016,
+   "value": 12000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "MEX",
+   "year": 2017,
+   "value": 195000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "MEX",
+   "year": 2018,
+   "value": 20000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "MEX",
+   "year": 2019,
+   "value": 18000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "MEX",
+   "year": 2020,
+   "value": 103000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "MEX",
+   "year": 2021,
+   "value": 19000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "MEX",
+   "year": 2022,
+   "value": 11000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "MEX",
+   "year": 2023,
+   "value": 196000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "USA",
+   "year": 2008,
+   "value": 2020000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "USA",
+   "year": 2009,
+   "value": 1300.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "USA",
+   "year": 2011,
+   "value": 52000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "USA",
+   "year": 2012,
+   "value": 901000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "USA",
+   "year": 2013,
+   "value": 188000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "USA",
+   "year": 2014,
+   "value": 34000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "USA",
+   "year": 2015,
+   "value": 63000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "USA",
+   "year": 2016,
+   "value": 1127000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "USA",
+   "year": 2017,
+   "value": 1581000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "USA",
+   "year": 2018,
+   "value": 1247000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "USA",
+   "year": 2019,
+   "value": 916000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "USA",
+   "year": 2020,
+   "value": 1715000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "USA",
+   "year": 2021,
+   "value": 573000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "USA",
+   "year": 2022,
+   "value": 675000.0,
+   "carried_forward": false,
+   "step_change": false
+  },
+  {
+   "indicator": "disaster_displacement",
+   "country": "USA",
+   "year": 2023,
+   "value": 202000.0,
+   "carried_forward": false,
+   "step_change": false
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Water & Climate Risk Monitor</title>
+  <meta name="description" content="How exposed are North American supply chains to water and climate risk? Live World Bank data for the USA, Mexico and Canada.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <a class="home" href="https://rebe-canales.github.io/">Rebeca Canales</a>
+      <p class="eyebrow">Supply chain risk: USA, Mexico, Canada</p>
+      <h1>Water & Climate Risk Monitor</h1>
+      <p class="lede">How exposed are North American supply chains to water and climate risk? Every figure on this page is pulled from the World Bank Indicators API by a Python pipeline and refreshes automatically.</p>
+      <p class="meta" id="meta"></p>
+    </header>
+
+    <section class="kpis" aria-label="Headline numbers">
+      <article class="kpi">
+        <p class="kpi-label">Mexico water stress</p>
+        <p class="kpi-value" id="kpi-stress"></p>
+        <p class="kpi-note" id="kpi-stress-note"></p>
+      </article>
+      <article class="kpi">
+        <p class="kpi-label">Mexico renewable water per person</p>
+        <p class="kpi-value" id="kpi-percap"></p>
+        <p class="kpi-note" id="kpi-percap-note"></p>
+      </article>
+      <article class="kpi">
+        <p class="kpi-label">Mexico methane emissions</p>
+        <p class="kpi-value" id="kpi-methane"></p>
+        <p class="kpi-note" id="kpi-methane-note"></p>
+      </article>
+    </section>
+
+    <section class="findings">
+      <h2>What this means for supply chains</h2>
+      <ol id="findings"></ol>
+    </section>
+
+    <section class="grid">
+      <article class="card wide">
+        <header>
+          <h3>Water stress: share of available freshwater that is withdrawn</h3>
+          <p class="sub">Dashed lines mark FAO's SDG 6.4.2 stress thresholds. A dashed series segment means the source repeated the previous year's value.</p>
+        </header>
+        <div class="legend" data-for="stress"></div>
+        <div class="chart"><canvas id="chart-stress" role="img" aria-label="Line chart of water stress by country, 2000 onward"></canvas></div>
+        <details><summary>Show data table</summary><div class="table" id="table-stress"></div></details>
+        <p class="source" data-source="water_stress"></p>
+      </article>
+
+      <article class="card">
+        <header>
+          <h3>Who uses the water</h3>
+          <p class="sub">Freshwater withdrawals by sector, latest year. Industry includes cooling water for power plants.</p>
+        </header>
+        <div class="legend" data-for="mix"></div>
+        <div class="chart short"><canvas id="chart-mix" role="img" aria-label="Stacked bar chart of freshwater withdrawals by sector for each country"></canvas></div>
+        <details><summary>Show data table</summary><div class="table" id="table-mix"></div></details>
+        <p class="source" data-source="withdrawal_industry"></p>
+      </article>
+
+      <article class="card">
+        <header>
+          <h3>Renewable freshwater per person</h3>
+          <p class="sub">Indexed, 2000 = 100. The decline is driven by population growth on a fixed resource.</p>
+        </header>
+        <div class="legend" data-for="percap"></div>
+        <div class="chart short"><canvas id="chart-percap" role="img" aria-label="Line chart of renewable freshwater per person, indexed to 2000"></canvas></div>
+        <details><summary>Show data table</summary><div class="table" id="table-percap"></div></details>
+        <p class="source" data-source="water_per_capita"></p>
+      </article>
+
+      <article class="card">
+        <header>
+          <h3>Methane emissions</h3>
+          <p class="sub">Indexed, 2000 = 100. Hover for absolute values in Mt CO2e.</p>
+        </header>
+        <div class="legend" data-for="methane"></div>
+        <div class="chart short"><canvas id="chart-methane" role="img" aria-label="Line chart of methane emissions, indexed to 2000"></canvas></div>
+        <details><summary>Show data table</summary><div class="table" id="table-methane"></div></details>
+        <p class="source" data-source="methane"></p>
+      </article>
+
+      <article class="card">
+        <header>
+          <h3>New displacements caused by disasters</h3>
+          <p class="sub">Storms, floods and wildfires that force people from their homes, a proxy for physical disruption.</p>
+        </header>
+        <div class="legend" data-for="displacement"></div>
+        <div class="chart short"><canvas id="chart-displacement" role="img" aria-label="Bar chart of disaster displacements by year and country"></canvas></div>
+        <details><summary>Show data table</summary><div class="table" id="table-displacement"></div></details>
+        <p class="source" data-source="disaster_displacement"></p>
+      </article>
+    </section>
+
+    <section class="notes">
+      <h2>Data notes</h2>
+      <ul id="notes"></ul>
+    </section>
+
+    <section class="next">
+      <h2>From data to scenarios</h2>
+      <p>This monitor is the quantitative baseline for <a href="reports/Escenarios_Estrategicos_Crisis_Hidrica_Mexico_2025-2035.pdf">Strategic Scenarios: Mexico's Water Crisis 2025–2035</a> (full report in Spanish), which stress-tests these trends under four futures built on governance and infrastructure investment.</p>
+      <p class="links"><a href="data/indicators.csv" download>Download the data (CSV)</a> · <a href="pipeline/fetch_data.py">View the pipeline</a></p>
+    </section>
+
+    <footer class="footer">Built by <a href="https://rebe-canales.github.io/">Rebeca Canales</a>. Data: World Bank Indicators API, original sources credited under each chart</footer>
+  </main>
+
+  <script src="data/data.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
